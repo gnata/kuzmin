@@ -1,0 +1,220 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kuzmin</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="Shortcut Icon" type="image/x-icon" href="/pic/favicon.ico">
+    
+@*  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – приложение ASP.NET</title>*@
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    
+    <link href="http://circulmark.com/app/view/css/langmenu.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+
+            <div class="black-top-bar">
+                <div class="pa toplang">
+
+                    <div>Для кого: </div>
+                    <ul class="langmenu">
+                        <li class="lmenu">Женщинам<img src="http://circulmark.com/app/view/img/choose.png" alt="">
+                            <ul>
+                                <li><a class="lang" href="/ua/en/search?q=%D1%82%D1%83%D1%84%D0%BB%D0%B8&amp;search=prod">Мужчинам</a></li>
+                                <li><a class="lang" href="/ua/ru/search?q=%D1%82%D1%83%D1%84%D0%BB%D0%B8&amp;search=prod">Женщинам</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    @*<div>Регион: </div>
+                    <ul class="langmenu">
+                        <li class="lmenu">
+                            УКРАЇНА<img src="http://circulmark.com/app/view/img/choose.png" alt="">
+                            <ul>
+                                <li>
+                                    <a href="http://circulmark.com/ru/ru/search?q=%D1%82%D1%83%D1%84%D0%BB%D0%B8&amp;search=prod">РОСІЯ</a>
+                                </li>
+                                <li>
+                                    <a href="http://circulmark.com/eu/en/search?q=%D1%82%D1%83%D1%84%D0%BB%D0%B8&amp;search=prod">ЄВРОПА</a>
+                                </li>
+                                <li>
+                                    <a href="http://circulmark.com/wr/en/search?q=%D1%82%D1%83%D1%84%D0%BB%D0%B8&amp;search=prod">СВІТ</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>*@                
+                </div>
+                <div class="pa topcart">
+                    <a href="http://circulmark.com/ua/ukr/cart">
+                        <img src="http://circulmark.com/app/view/img/topcart.png" alt="">&nbsp;&nbsp;Корзина (<span class="cartcount cart-count">0</span>)
+                    </a>
+
+                </div>
+            </div>
+            
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <img style="position: absolute; top: 65px; left: 5%;" src="http://circulmark.com/app/view/img/logo.svg" />
+
+            
+            <div class="navbar-collapse collapse">
+                
+                <div class="column">
+   
+                </div>
+
+                <div class="column">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Макасины", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Туфли", "About", "Home")</li>
+                        <li>@Html.ActionLink("Лоаферы", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Акции", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Контакты", "About", "Home")</li>
+                    </ul>
+
+                </div>
+
+                <div class="column">
+
+                    <div class="pa social">
+                        <div>
+                            <a class="foot-link" target="_blank" href="https://vimeo.com/user48075236">
+                                <img src="http://circulmark.com/app/view/img/vimeo.png" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a class="foot-link" target="_blank" href="https://instagram.com/circulmark/">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12px" height="11px" viewBox="0 0 68 62.333" enable-background="new 0 0 68 62.333" xml:space="preserve">
+                                <path d="M53.532,0H14.345C7.538,0,2,5.397,2,12.03v12.708V50.23c0,6.633,5.538,12.03,12.345,12.03h39.187
+                                c6.808,0,12.345-5.397,12.345-12.03V24.738V12.03C65.877,5.397,60.339,0,53.532,0z M57.072,7.174l1.412-0.003v1.371v9.181
+                                l-10.789,0.034L47.656,7.205L57.072,7.174z M24.823,24.738c2.044-2.758,5.364-4.566,9.117-4.566c3.75,0,7.07,1.808,9.114,4.566
+                                c1.333,1.804,2.128,4.004,2.128,6.392c0,6.042-5.047,10.958-11.243,10.958c-6.199,0-11.243-4.917-11.243-10.958
+                                C22.697,28.742,23.493,26.542,24.823,24.738z M59.653,50.23c0,3.289-2.744,5.963-6.122,5.963H14.345
+                                c-3.375,0-6.122-2.675-6.122-5.963V24.738h9.535c-0.824,1.979-1.285,4.131-1.285,6.392c0,9.386,7.832,17.024,17.466,17.024
+                                c9.631,0,17.464-7.638,17.464-17.024c0-2.261-0.464-4.413-1.288-6.392h9.538V50.23z" />
+                        </svg>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="foot-link" target="_blank" href="http://vk.com/circulshoes">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19px" height="10px" viewBox="0 -21.39 68.5 38.058" enable-background="new 0 -21.39 68.5 38.058" xml:space="preserve">
+                                <path d="M33.273,16.617h4.064c0,0,1.229-0.131,1.855-0.784c0.578-0.596,0.556-1.721,0.556-1.721s-0.08-5.311,2.451-6.089
+                                c2.496-0.76,5.701,5.083,9.099,7.329c2.567,1.702,4.519,1.265,4.519,1.265l9.08,0.007c0,0,4.752-0.347,2.5-3.947
+                                c-0.182-0.293-1.311-2.662-6.754-7.534c-5.693-5.093-4.929-4.269,1.93-13.083c4.178-5.368,5.845-8.643,5.324-10.049
+                                c-0.497-1.333-3.547-1.104-3.547-1.104l-10.249-0.002c0,0-0.76-0.074-1.32,0.252c-0.551,0.317-0.904,1.138-0.904,1.138
+                                s-1.618,4.232-3.776,7.765c-4.551,7.453-6.373,7.848-7.118,7.385c-1.73-1.081-1.3-4.333-1.3-6.648
+                                c0-7.221,1.138-10.234-2.214-11.014c-1.11-0.256-1.929-0.43-4.771-0.458c-3.648-0.034-6.736,0.012-8.486,0.838
+                                c-1.164,0.551-2.061,1.773-1.516,1.843c0.676,0.086,2.204,0.398,3.017,1.463c1.049,1.375,1.011,4.458,1.011,4.458
+                                s0.603,8.501-1.406,9.557c-1.377,0.727-3.268-0.754-7.328-7.516c-2.07-3.461-3.64-7.362-3.64-7.362s-0.306-0.718-0.845-1.1
+                                c-0.656-0.463-1.57-0.611-1.57-0.611L2.217-19.1c0,0-1.459,0.038-1.993,0.647c-0.478,0.547-0.041,1.67-0.041,1.67
+                                S7.79,0.507,16.403,9.152C24.305,17.08,33.273,16.617,33.273,16.617z" />
+                        </svg>
+                            </a>
+                        </div>
+                        <div>
+                            <a class="foot-link" target="_blank" href="http://facebook.com/circulshoes">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="6px" height="16px" viewBox="0 0 23.25 42.625" enable-background="new 0 0 23.25 42.625" xml:space="preserve">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.962,0.821c0.239-0.143,0.501-0.264,0.784-0.367
+                                c0.262-0.101,0.556-0.193,0.883-0.275l1.8-0.336h1.178l8.307,0.611h0.032l-0.849,7.217h-0.034l-4.579-0.458h-0.131l-0.458,0.061
+                                l-0.163,0.061L15.208,7.58c-0.108,0.021-0.195,0.07-0.26,0.154L14.555,8.13c-0.087,0.103-0.164,0.224-0.228,0.367
+                                c-0.066,0.123-0.122,0.256-0.166,0.396c-0.043,0.143-0.076,0.296-0.097,0.46c-0.023,0.142-0.034,0.294-0.034,0.458l0.066,4.527
+                                l6.738,0.061l-0.981,7.156L14.03,21.77v20.825l-0.032,0.03H4.905v-21.04H0v-7.187h4.709v-0.061l0.033-0.091l0.163-7.676l0.066-0.427
+                                V5.929l0.064-0.214c0.023-0.164,0.067-0.315,0.131-0.46c0.043-0.142,0.11-0.275,0.197-0.396C5.45,4.552,5.572,4.277,5.724,4.032
+                                c0.131-0.264,0.294-0.521,0.49-0.764C6.368,3.044,6.552,2.83,6.77,2.627c0.196-0.224,0.403-0.429,0.621-0.614v-0.03L8.962,0.821z" />
+                        </svg>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+                @*@Html.Partial("_LoginPartial")*@
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+      
+        
+    </div>
+   @* <main class="content">
+
+        <img src="C:\Users\Гончарова Наталья\Downloads\20170409_124328">
+
+    </main>*@
+
+    <footer class="footer">
+        <div>
+            <a class="foot-link" target="_blank" href="http://facebook.com/circulshoes">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="19px" viewBox="0 0 23.25 42.625" enable-background="new 0 0 23.25 42.625" xml:space="preserve">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.962,0.821c0.239-0.143,0.501-0.264,0.784-0.367
+                    c0.262-0.101,0.556-0.193,0.883-0.275l1.8-0.336h1.178l8.307,0.611h0.032l-0.849,7.217h-0.034l-4.579-0.458h-0.131l-0.458,0.061
+                    l-0.163,0.061L15.208,7.58c-0.108,0.021-0.195,0.07-0.26,0.154L14.555,8.13c-0.087,0.103-0.164,0.224-0.228,0.367
+                    c-0.066,0.123-0.122,0.256-0.166,0.396c-0.043,0.143-0.076,0.296-0.097,0.46c-0.023,0.142-0.034,0.294-0.034,0.458l0.066,4.527
+                    l6.738,0.061l-0.981,7.156L14.03,21.77v20.825l-0.032,0.03H4.905v-21.04H0v-7.187h4.709v-0.061l0.033-0.091l0.163-7.676l0.066-0.427
+                    V5.929l0.064-0.214c0.023-0.164,0.067-0.315,0.131-0.46c0.043-0.142,0.11-0.275,0.197-0.396C5.45,4.552,5.572,4.277,5.724,4.032
+                    c0.131-0.264,0.294-0.521,0.49-0.764C6.368,3.044,6.552,2.83,6.77,2.627c0.196-0.224,0.403-0.429,0.621-0.614v-0.03L8.962,0.821z" />
+            </svg>
+            </a>
+            <a class="foot-link" target="_blank" href="http://vk.com/circulshoes">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="29px" height="15px" viewBox="0 -21.39 68.5 38.058" enable-background="new 0 -21.39 68.5 38.058" xml:space="preserve">
+                <path d="M33.273,16.617h4.064c0,0,1.229-0.131,1.855-0.784c0.578-0.596,0.556-1.721,0.556-1.721s-0.08-5.311,2.451-6.089
+                    c2.496-0.76,5.701,5.083,9.099,7.329c2.567,1.702,4.519,1.265,4.519,1.265l9.08,0.007c0,0,4.752-0.347,2.5-3.947
+                    c-0.182-0.293-1.311-2.662-6.754-7.534c-5.693-5.093-4.929-4.269,1.93-13.083c4.178-5.368,5.845-8.643,5.324-10.049
+                    c-0.497-1.333-3.547-1.104-3.547-1.104l-10.249-0.002c0,0-0.76-0.074-1.32,0.252c-0.551,0.317-0.904,1.138-0.904,1.138
+                    s-1.618,4.232-3.776,7.765c-4.551,7.453-6.373,7.848-7.118,7.385c-1.73-1.081-1.3-4.333-1.3-6.648
+                    c0-7.221,1.138-10.234-2.214-11.014c-1.11-0.256-1.929-0.43-4.771-0.458c-3.648-0.034-6.736,0.012-8.486,0.838
+                    c-1.164,0.551-2.061,1.773-1.516,1.843c0.676,0.086,2.204,0.398,3.017,1.463c1.049,1.375,1.011,4.458,1.011,4.458
+                    s0.603,8.501-1.406,9.557c-1.377,0.727-3.268-0.754-7.328-7.516c-2.07-3.461-3.64-7.362-3.64-7.362s-0.306-0.718-0.845-1.1
+                    c-0.656-0.463-1.57-0.611-1.57-0.611L2.217-19.1c0,0-1.459,0.038-1.993,0.647c-0.478,0.547-0.041,1.67-0.041,1.67
+                    S7.79,0.507,16.403,9.152C24.305,17.08,33.273,16.617,33.273,16.617z" />
+            </svg>
+            </a>
+            <a class="foot-link" target="_blank" href="https://instagram.com/circulmark/">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="19px" viewBox="0 0 68 62.333" enable-background="new 0 0 68 62.333" xml:space="preserve">
+                <path d="M53.532,0H14.345C7.538,0,2,5.397,2,12.03v12.708V50.23c0,6.633,5.538,12.03,12.345,12.03h39.187
+                    c6.808,0,12.345-5.397,12.345-12.03V24.738V12.03C65.877,5.397,60.339,0,53.532,0z M57.072,7.174l1.412-0.003v1.371v9.181
+                    l-10.789,0.034L47.656,7.205L57.072,7.174z M24.823,24.738c2.044-2.758,5.364-4.566,9.117-4.566c3.75,0,7.07,1.808,9.114,4.566
+                    c1.333,1.804,2.128,4.004,2.128,6.392c0,6.042-5.047,10.958-11.243,10.958c-6.199,0-11.243-4.917-11.243-10.958
+                    C22.697,28.742,23.493,26.542,24.823,24.738z M59.653,50.23c0,3.289-2.744,5.963-6.122,5.963H14.345
+                    c-3.375,0-6.122-2.675-6.122-5.963V24.738h9.535c-0.824,1.979-1.285,4.131-1.285,6.392c0,9.386,7.832,17.024,17.466,17.024
+                    c9.631,0,17.464-7.638,17.464-17.024c0-2.261-0.464-4.413-1.288-6.392h9.538V50.23z" />
+            </svg>
+            </a>
+            <a class="foot-link" target="_blank" href="https://vimeo.com/user48075236">
+                <img src="/app/view/img/vimeo.png" alt="">
+            </a>
+        </div>
+        @*<div class="foot-copy-1">
+            <p>Kuzmin 2017 &copy; &nbsp;Made in Ukraine</p>
+        </div>
+        <div class="foot-copy-2">
+            <p>Kuzmin all right reserved</p>
+        </div>
+        <div class="clear"></div>*@
+    </footer>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>

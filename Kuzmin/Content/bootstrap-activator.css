@@ -1,0 +1,282 @@
+
+.navbar-inverse {
+  background: #ffffff;
+  border:none;
+  
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    color: #333333;
+    font-weight:500;
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #333333;
+}
+
+.container {
+
+    width:100%;
+    max-width:100%;
+    padding:0;
+}
+
+.black-top-bar {
+    height:30px;
+    background: #333333;
+}
+
+.body-content {
+    margin-top: 160px;
+}
+
+.logo {
+
+      padding-top:30px;
+      z-index: 1000 !important;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-collapse {
+    padding: 0;
+    white-space: nowrap;
+    max-height:130px;    
+}
+
+
+.column {
+    width:33.3333%; 
+    display: inline-block; 
+    text-align:center; 
+    height:130px;
+}
+
+.pa {
+    position: absolute;
+}
+
+.social {
+    right: 51px;
+    top: 82px;
+    width: 110px;
+    z-index: 5;
+}
+
+.social div {
+    float: right;
+    height: 16px;
+    margin-bottom: 0;
+    margin-left: 12px;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: auto !important;
+}
+
+
+a.foot-link {
+    vertical-align: middle;
+}
+
+.social > div > a {
+    display: block;
+    height: 16px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+.social div a img {
+  height: 13px;
+}
+
+
+.social div a svg, .social div a img {
+  vertical-align: middle;
+}
+
+a img {
+  display: inline-block;
+}
+
+.topcart a {
+  -x-system-font: none;
+  color: #ffffff;
+  font-family: "ApercuPro-Regular",Arial,Helvetica,sans-serif;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-size: 10px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-synthesis: weight style;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-weight: normal;
+  line-height: normal;
+  text-decoration-color: currentcolor;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-transform: uppercase;
+}
+
+.toplang {
+  -x-system-font: none;
+  color: #ffffff;
+  font-family: "ApercuPro-Regular",Arial,Helvetica,sans-serif;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-size: 10px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-synthesis: weight style;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-weight: normal;
+  left: 45px;
+  line-height: normal;
+  top: 7px;
+  width: 870px;
+}
+
+.topcart {
+  -x-system-font: none;
+  color: #ffffff;
+  font-family: "ApercuPro-Regular",Arial,Helvetica,sans-serif;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-size: 10px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-synthesis: weight style;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-weight: normal;
+  line-height: normal;
+  right: 50px;
+  text-transform: uppercase;
+  top: 7px;
+}
+
+.toplang div {
+  -x-system-font: none;
+  color: #808080;
+  float: left;
+  font-family: "ApercuPro-Regular",Arial,Helvetica,sans-serif;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-size: 10px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-synthesis: weight style;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-weight: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.toplang img {
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 0;
+  margin-top: 0;
+  vertical-align: middle;
+}
+
+.lmenu {
+  -x-system-font: none !important;
+  font-family: "ApercuPro-Regular",Arial,Helvetica,sans-serif !important;
+  font-feature-settings: normal !important;
+  font-kerning: auto !important;
+  font-language-override: normal !important;
+  font-size: 10px !important;
+  font-size-adjust: none !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  font-synthesis: weight style !important;
+  font-variant-alternates: normal !important;
+  font-variant-caps: normal !important;
+  font-variant-east-asian: normal !important;
+  font-variant-ligatures: normal !important;
+  font-variant-numeric: normal !important;
+  font-variant-position: normal !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+}
+
+
+a.foot-link {
+    margin-bottom: 0;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+.footer {
+  border-top-color: #e5e5e5;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 90px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 500px;
+  min-width: 320px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 37px;
+  position: relative;
+  text-align: center;
+}
+
+.navbar-inverse {
+    border-bottom: 1px solid #efefef;
+}
+
+.foot-copy-1 p, foot-copy-2 p {
+    color: #b3b3b3;
+    padding: 0 0 0 50px;
+}
+
+footer p {
+    display: inline;
+}
